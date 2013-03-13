@@ -17,7 +17,7 @@
 <script>if(strings["lang"] === "ar") document.write("<body dir='rtl'>"); else document.write("<body dir='ltr'>");</script>
 
 <header><br>
-	<img src="images/icon.png">
+	<img src="images/icon@2x.png" style="height:96px;" onmouseover="this.src='images/panda.png'; document.getElementById('widget-name').innerHTML='TextBoXpanda ';" onmouseout="this.src='images/icon@2x.png'; document.getElementById('widget-name').innerHTML='TextBoXpander';">
     <h1 id="widget-name">TextBoXpander</h1>
     <h3><script>_("by");</script> <a href="http://my.opera.com/christoph142/blog/" target="_blank">Christoph D.</a></h3>
 </header>
@@ -26,17 +26,19 @@
     <fieldset>
     
     <h4><script>_("textarea");</script></h4>
-	<script>_("resizable");</script><br>
-    <select id="resizable">
-    	<option value="0"><script>_("unchanged");</script></option>
-        <option value="both"><script>_("both");</script></option>
-        <option value="horizontal" selected="true"><script>_("horizontal");</script></option>
-        <option value="vertical"><script>_("vertical");</script></option>
-        <option value="none"><script>_("none");</script></option>
-    </select>
-    <br>
-    <!--br>
-    <h4><script>_("textarea and input");</script></h4-->
+    <script>document.write(window.opera.version() < 12.1 ? "<div style='display:none;'>" : "<div>");</script>
+		<script>_("resizable");</script><br>
+        <select id="resizable">
+            <option value="0"><script>_("unchanged");</script></option>
+            <option value="both"><script>_("both");</script></option>
+            <option value="horizontal" selected="true"><script>_("horizontal");</script></option>
+            <option value="vertical"><script>_("vertical");</script></option>
+            <option value="none"><script>_("none");</script></option>
+        </select>
+        <br>
+        <br>
+    </div>
+    <!--h4><script>_("textarea and input");</script></h4-->
 	<script>_("transition-duration");</script><br>
     <table>
         <tr>
