@@ -46,6 +46,7 @@ function autogrow_input()
 
 function init_this_textarea(t)
 {
+	
 	removePreviousEventListeners();
 	addEventListeners(t, autogrow_textarea);
 	
@@ -70,6 +71,7 @@ function init_this_textarea(t)
 	compareField_prototype.style.overflow	= "hidden";
 	
 	compareField_prototype.value			+= "\n";
+	compareField_prototype.id				= ""; // got cloned, too
 	
 	compareField_prototype.style.font		= style.getPropertyValue("font");
 	compareField_prototype.style.lineHeight	= style.getPropertyValue("line-height");
@@ -77,7 +79,8 @@ function init_this_textarea(t)
 	else t.dataset.xpander_original_height = compareField_prototype.style.height = style.getPropertyValue("height");
 	
 	compareField_container.appendChild(compareField_prototype);
-	t.parentNode.appendChild(compareField_container);
+	if(document.URL.match("://my.opera.com"))	document.body.appendChild(compareField_container); // smilies stop working
+	else										t.parentNode.appendChild(compareField_container);
 	
 	compareField = document.getElementById("Xpander_compareField");
 	currentField = t;
