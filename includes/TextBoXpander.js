@@ -62,7 +62,6 @@ function init_this_textarea(t)
 	compareField_container.style.overflow	= "hidden";
 	compareField_container.style.position	= "absolute";
 	compareField_container.style.height		= "1px";
-	compareField_container.style.width		= "1px";
 	compareField_container.style.opacity	= "0.01";
 	
 	var compareField_prototype				= t.cloneNode(0);
