@@ -5,6 +5,7 @@
 	<author href="http://my.opera.com/christoph142/blog">Christoph D.</author>
 	<icon src="images/icon.png" />
 	
+	<description xml:lang="cs">Automaticky mění velikost zadávacích polí a textových oblastí mezitím co vy píšete</description>
 	<description xml:lang="de">Passt die Größe von Textfeldern automatisch während dem Schreiben an</description>
 	<description xml:lang="en">Automatically resizes input fields and textareas while you're typing</description>
 	<description xml:lang="fr">Redimensionne les champs de saisie et les zones de texte automatiquement lorsque tu tapes</description>
