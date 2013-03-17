@@ -1,6 +1,6 @@
 var strings = {
-  "lang" : "cs",
-  "by" : "od",
+	"lang" : "cs",
+	"by" : "od",
 	"textarea" : "Víceřádkové textové oblasti:",
 	"resizable" : "Jakým způsobem chcete mít možnost ručně upravovat automaticky měněné textové oblasti?",
 	"unchanged" : "nezměněno",
