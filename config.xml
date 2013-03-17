@@ -9,6 +9,7 @@
 	<description xml:lang="de">Passt die Größe von Textfeldern automatisch während dem Schreiben an</description>
 	<description xml:lang="en">Automatically resizes input fields and textareas while you're typing</description>
 	<description xml:lang="fr">Redimensionne les champs de saisie et les zones de texte automatiquement lorsque tu tapes</description>
+	<description xml:lang="pt">Automaticamente redimensiona caixas de texto conforme você digita</description>
 	
 	<!--feature name="opera:contextmenus" required="false" /-->
 	
