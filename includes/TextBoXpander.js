@@ -9,6 +9,7 @@
 (function(){
 
 var currentField;
+var currentField_origOverflow;
 var compareField;
 
 document.addEventListener("focusin", initialize, false);
@@ -19,16 +20,17 @@ function initialize()
 	
 	if(t.type === "textarea")
 	{
+		var is_first_time = (!t.dataset.xpander_original_height ? 1 : 0)
 		if(t !== currentField) init_this_textarea(t);
-		autogrow_textarea();
+		if(is_first_time) autogrow_textarea();
 	}
 	else if(t.type !== "" && "text search email tel url".indexOf(t.type) >= 0 && t !== currentField) init_this_input(t);
 }
 
 function autogrow_textarea()
 {
-	if(window.event.which > 32 && window.event.which < 41) return; // Home/End/PgUp/PgDwn + arrow keys
 	t = window.event.target;
+	if(t.value+"\n" === compareField.firstChild.value) return;
 	
 	var scrollHeight_before = compareField.firstChild.scrollHeight;
 	var style = window.getComputedStyle(t,0);
@@ -52,15 +54,9 @@ function init_this_textarea(t)
 {
 	var w = widget.preferences;
 	var is_first_initialization = !t.dataset.xpander_original_height;
+	
 	removePreviousEventListeners();
 	addEventListeners(t, autogrow_textarea);
-	
-	if(is_first_initialization)
-	{
-		if(w.resizable				!== "0") t.style.resize = w.resizable;
-		if(w.disable_scrolling		=== "1") t.style.overflow = "hidden";
-		if(w.transition_duration	!== "0") t.style.transition = t.style.OTransition = "height "+w.transition_duration+"ms";
-	}
 	
 	if(compareField) compareField.parentNode.removeChild(compareField);
 	
@@ -78,15 +74,27 @@ function init_this_textarea(t)
 	
 	compareField_prototype.id				= ""; // got cloned, too
 	
-	if(is_first_initialization)	compareField_prototype.value = "";
-	else						compareField_prototype.value += "\n";
-	
 	var style = window.getComputedStyle(t,0);
+	
+	if(is_first_initialization)
+	{
+		if(w.resizable				!== "0") t.style.resize = w.resizable;
+		if(w.disable_scrolling		=== "0") currentField_origOverflow = style.getPropertyValue("overflow");
+		if(w.transition_duration	!== "0") t.style.transition = t.style.OTransition = "height "+w.transition_duration+"ms";
+		
+		t.dataset.xpander_original_height = compareField_prototype.style.height = t.style.height = style.getPropertyValue("height");
+		compareField_prototype.value = "";
+	}
+	else
+	{
+		compareField_prototype.style.height = t.dataset.xpander_original_height;
+		compareField_prototype.value = t.value+"\n";
+	}
+	
+	t.style.overflow = "hidden";
 	
 	compareField_prototype.style.font		= style.getPropertyValue("font");
 	compareField_prototype.style.lineHeight	= style.getPropertyValue("line-height");
-	if(!is_first_initialization) compareField_prototype.style.height = t.dataset.xpander_original_height;
-	else t.dataset.xpander_original_height = compareField_prototype.style.height = t.style.height = style.getPropertyValue("height");
 	
 	compareField_container.appendChild(compareField_prototype);
 	if(document.URL.match("://my.opera.com"))	document.body.appendChild(compareField_container); // smilies stop working
@@ -138,9 +146,12 @@ function addEventListeners(t, f)
 	t.addEventListener("keyup", f, false);
 	t.addEventListener("paste", f, false);
 	
+	if(f === autogrow_textarea && widget.preferences.disable_scrolling === "0")
+		t.addEventListener("blur", function(){ t.style.overflow = currentField_origOverflow; }, false);
+	
 	if(f !== autogrow_textarea || widget.preferences.collapse_textareas === "0" || t.dataset.xpander_original_height) return;
-	t.addEventListener("focus", function(){ window.event.target.style.height = window.event.target.dataset.xpander_height; }, false);
-	t.addEventListener("blur", function(){	window.event.target.style.height = window.event.target.dataset.xpander_original_height;	}, false);
+	t.addEventListener("focus", function(e){ e.target.style.height = e.target.dataset.xpander_height; }, false);
+	t.addEventListener("blur", function(e){ e.target.style.height = e.target.dataset.xpander_original_height; }, false);
 }
 
 }());
