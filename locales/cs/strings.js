@@ -11,6 +11,6 @@ var strings = {
 	"textarea and input" : "Všechny druhy textových vstupů:",
 	"transition-duration" : "Délka trvání úpravy výšky",
 	"disable scrolling" : "Skrýt posuvníky",
-	"collapse textareas" : "Restore original size when not focused",
+	"collapse textareas" : "Obnovit originální velikost, když není aktivní",
 	"footer" : "Díky za nainstalování tohoto rozšíření. Můžete mě kdykoli kontaktovat pro zpětnou vazbu a otázky."
 };
