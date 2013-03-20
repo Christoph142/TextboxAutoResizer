@@ -51,6 +51,7 @@ function init_this_textarea(t)
 	addEventListeners(t, autogrow_textarea);
 	
 	if(widget.preferences.resizable !== "0")			t.style.resize = widget.preferences.resizable;
+	if(widget.preferences.disable_scrolling === "1")	t.style.overflow = "hidden";
 	if(widget.preferences.transition_duration !== "0")	t.style.transition = t.style.OTransition = "height "+widget.preferences.transition_duration+"ms";
 	
 	var style = window.getComputedStyle(t,0);

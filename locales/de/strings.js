@@ -10,5 +10,6 @@ var strings = {
 	"none" : "gar nicht",
 	"textarea and input" : "Alle Textfelder:",
 	"transition-duration" : "Animations-Dauer der Höhenanpassung",
+	"disable scrolling" : "Scroll-Leisten ausblenden",
 	"footer" : "Danke für das Installieren dieser Erweiterung. Für Feedback und Fragen stehe ich jederzeit gerne zur Verfügung."
 };

@@ -10,5 +10,6 @@ var strings = {
 	"none" : "pas du tout",
 	"textarea and input" : "Tous les types de saisies de texte:",
 	"transition-duration" : "Durée de la transition du réglage de la hauteur",
+	"disable scrolling" : "Cache les barres de défilement",
 	"footer" : "Merci d'avoir installé cette extension. Tu peux me contacter toujours pour des commentaires et des questions."
 };
