@@ -11,5 +11,6 @@ var strings = {
 	"textarea and input" : "Alle Textfelder:",
 	"transition-duration" : "Animations-Dauer der Höhenanpassung",
 	"disable scrolling" : "Scroll-Leisten ausblenden",
+	"collapse textareas" : "Ursprüngliche Größe beim Deaktivieren wiederherstellen",
 	"footer" : "Danke für das Installieren dieser Erweiterung. Für Feedback und Fragen stehe ich jederzeit gerne zur Verfügung."
 };

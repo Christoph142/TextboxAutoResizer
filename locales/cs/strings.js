@@ -10,6 +10,7 @@ var strings = {
 	"none" : "vůbec",
 	"textarea and input" : "Všechny druhy textových vstupů:",
 	"transition-duration" : "Délka trvání úpravy výšky",
-	"disable scrolling" : "Hide scroll bars",
+	"disable scrolling" : "Skrýt posuvníky",
+	"collapse textareas" : "Restore original size when not focused",
 	"footer" : "Díky za nainstalování tohoto rozšíření. Můžete mě kdykoli kontaktovat pro zpětnou vazbu a otázky."
 };

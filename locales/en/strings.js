@@ -11,5 +11,6 @@ var strings = {
 	"textarea and input" : "All kinds of text inputs:",
 	"transition-duration" : "Transition-duration of height adjustments",
 	"disable scrolling" : "Hide scroll bars",
+	"collapse textareas" : "Restore original size when not focused",
 	"footer" : "Thanks for installing this extension. You can contact me at any time for feedback and questions."
 };
