@@ -17,8 +17,12 @@ function initialize()
 {
 	var t = window.event.target;
 	
-	if(t.type === "textarea" && t !== currentField)									init_this_textarea(t);
-	else if("text search email tel url".indexOf(t.type) >= 0 && t !== currentField)	init_this_input(t);
+	if(t.type === "textarea")
+	{
+		if(t !== currentField) init_this_textarea(t);
+		autogrow_textarea();
+	}
+	else if(t.type !== "" && "text search email tel url".indexOf(t.type) >= 0 && t !== currentField) init_this_input(t);
 }
 
 function autogrow_textarea()
@@ -32,7 +36,7 @@ function autogrow_textarea()
 	compareField.firstChild.style.width = style.getPropertyValue("width");
 	compareField.firstChild.value = t.value+"\n";
 	
-	t.style.height = parseInt(t.style.height!=="" ? t.style.height : style.getPropertyValue("height"))+compareField.firstChild.scrollHeight-scrollHeight_before+"px";
+	t.dataset.xpander_height = t.style.height = parseInt(t.style.height!=="" ? t.style.height : style.getPropertyValue("height"))+compareField.firstChild.scrollHeight-scrollHeight_before+"px";
 }
 
 function autogrow_input()
@@ -46,15 +50,17 @@ function autogrow_input()
 
 function init_this_textarea(t)
 {
-	
+	var w = widget.preferences;
+	var is_first_initialization = !t.dataset.xpander_original_height;
 	removePreviousEventListeners();
 	addEventListeners(t, autogrow_textarea);
 	
-	if(widget.preferences.resizable !== "0")			t.style.resize = widget.preferences.resizable;
-	if(widget.preferences.disable_scrolling === "1")	t.style.overflow = "hidden";
-	if(widget.preferences.transition_duration !== "0")	t.style.transition = t.style.OTransition = "height "+widget.preferences.transition_duration+"ms";
-	
-	var style = window.getComputedStyle(t,0);
+	if(is_first_initialization)
+	{
+		if(w.resizable				!== "0") t.style.resize = w.resizable;
+		if(w.disable_scrolling		=== "1") t.style.overflow = "hidden";
+		if(w.transition_duration	!== "0") t.style.transition = t.style.OTransition = "height "+w.transition_duration+"ms";
+	}
 	
 	if(compareField) compareField.parentNode.removeChild(compareField);
 	
@@ -70,13 +76,17 @@ function init_this_textarea(t)
 	compareField_prototype.disabled			= "disabled";
 	compareField_prototype.style.overflow	= "hidden";
 	
-	compareField_prototype.value			+= "\n";
 	compareField_prototype.id				= ""; // got cloned, too
+	
+	if(is_first_initialization)	compareField_prototype.value = "";
+	else						compareField_prototype.value += "\n";
+	
+	var style = window.getComputedStyle(t,0);
 	
 	compareField_prototype.style.font		= style.getPropertyValue("font");
 	compareField_prototype.style.lineHeight	= style.getPropertyValue("line-height");
-	if(t.dataset.xpander_original_height) compareField_prototype.style.height = t.dataset.xpander_original_height;
-	else t.dataset.xpander_original_height = compareField_prototype.style.height = style.getPropertyValue("height");
+	if(!is_first_initialization) compareField_prototype.style.height = t.dataset.xpander_original_height;
+	else t.dataset.xpander_original_height = compareField_prototype.style.height = t.style.height = style.getPropertyValue("height");
 	
 	compareField_container.appendChild(compareField_prototype);
 	if(document.URL.match("://my.opera.com"))	document.body.appendChild(compareField_container); // smilies stop working
@@ -127,6 +137,10 @@ function addEventListeners(t, f)
 	t.addEventListener("keypress", f, false);
 	t.addEventListener("keyup", f, false);
 	t.addEventListener("paste", f, false);
+	
+	if(f !== autogrow_textarea || widget.preferences.collapse_textareas === "0" || t.dataset.xpander_original_height) return;
+	t.addEventListener("focus", function(){ window.event.target.style.height = window.event.target.dataset.xpander_height; }, false);
+	t.addEventListener("blur", function(){	window.event.target.style.height = window.event.target.dataset.xpander_original_height;	}, false);
 }
 
 }());
