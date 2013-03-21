@@ -93,8 +93,7 @@ function init_this_textarea(t)
 	compareField_prototype.style.lineHeight	= style.getPropertyValue("line-height");
 	
 	compareField_container.appendChild(compareField_prototype);
-	if(document.URL.match("://my.opera.com"))	document.body.appendChild(compareField_container); // smilies stop working
-	else										t.parentNode.appendChild(compareField_container);
+	document.body.appendChild(compareField_container); // smilies stop working if inserted to parentNode
 	
 	compareField = document.getElementById("Xpander_compareField");
 	currentField = t;
