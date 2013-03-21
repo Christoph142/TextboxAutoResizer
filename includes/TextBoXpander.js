@@ -18,12 +18,7 @@ function initialize()
 {
 	var t = window.event.target;
 	
-	if(t.type === "textarea")
-	{
-		var is_first_time = (!t.dataset.xpander_original_height ? 1 : 0)
-		if(t !== currentField) init_this_textarea(t);
-		if(is_first_time) autogrow_textarea();
-	}
+	if(t.type === "textarea" && t !== currentField) init_this_textarea(t);
 	else if(t.type !== "" && "text search email tel url".indexOf(t.type) >= 0 && t !== currentField) init_this_input(t);
 }
 
@@ -88,6 +83,7 @@ function init_this_textarea(t)
 	else
 	{
 		compareField_prototype.style.height = t.dataset.xpander_original_height;
+		compareField_prototype.style.width = style.getPropertyValue("width");
 		compareField_prototype.value = t.value+"\n";
 	}
 	
@@ -102,6 +98,8 @@ function init_this_textarea(t)
 	
 	compareField = document.getElementById("Xpander_compareField");
 	currentField = t;
+	
+	if(is_first_initialization) autogrow_textarea();
 }
 
 function init_this_input(t)
