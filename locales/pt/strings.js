@@ -10,7 +10,7 @@ var strings = {
 	"none" : "não redimensionar",
 	"textarea and input" : "Todos os tipos de caixas de texto:",
 	"transition-duration" : "Duração da transição de ajuste do tamanho",
-	"disable scrolling" : "Hide scroll bars",
-	"collapse textareas" : "Restore original size when not focused",
+	"disable scrolling" : "Esconder barras de rolagem",
+	"collapse textareas" : "Restaurar tamanho original quando não estiver com foco",
 	"footer" : "Obrigado por instalar esta extensão. Para comentários e perguntas não hesite em contatar-me."
 };
