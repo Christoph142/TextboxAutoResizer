@@ -1,0 +1,54 @@
+{
+    "lang": {
+        "message": "de",
+        "description": ""
+    },
+    "both": {
+        "message": "in beide Richtungen",
+        "description": ""
+    },
+    "none": {
+        "message": "gar nicht",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Ursprüngliche Größe beim Deaktivieren wiederherstellen",
+        "description": ""
+    },
+    "vertical": {
+        "message": "nur vertikal",
+        "description": ""
+    },
+    "resizable": {
+        "message": "Wie sollen die automatisch angepassten Felder auch manuell anpassbar sein?",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Mehrzeilige Textfelder:",
+        "description": ""
+    },
+    "footer": {
+        "message": "Danke für das Installieren dieser Erweiterung. Für Feedback und Fragen stehe ich jederzeit gerne zur Verfügung.",
+        "description": ""
+    },
+    "unchanged": {
+        "message": "unverändert",
+        "description": ""
+    },
+    "transition_duration": {
+        "message": "Animations-Dauer der Höhenanpassung",
+        "description": ""
+    },
+    "horizontal": {
+        "message": "nur horizontal",
+        "description": ""
+    },
+    "by": {
+        "message": "von",
+        "description": ""
+    },
+    "description": {
+        "message": "Passt die Größe von Textfeldern automatisch während dem Schreiben an",
+        "description": ""
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+<html>
+<head>
+	<title>Textbox Auto Resizer</title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+    <link rel="icon" type="image/png" href="../images/contextmenu.png">
+    
+    <script type="text/javascript" src="prefs.js"></script>
+</head>
+
+<body>
+
+<div id="help">
+    <h3 style="color:#F00;">I need your help!</h3>Please click here to read my story<br>
+    <i style="font-size:x-small;">- This is no advertising, promised! -</i>
+    <div id="close_help"><p></p></div>
+</div>
+<header><br>
+	<img src="../images/icon.png">
+    <h1 id="widget-name">Textbox Auto Resizer</h1>
+    <h3><span class="i18n" data-i18n="by"></span> <a href="http://my.opera.com/christoph142/blog/" target="_blank">Christoph D.</a></h3>
+</header>
+<br>
+<section>
+	<fieldset>
+    <h4 class="i18n" data-i18n="textarea"></h4>
+    
+    <span class="i18n" data-i18n="resizable"></span><br>
+        <select id="resizable">
+            <option value="0"><span class="i18n" data-i18n="unchanged"></span></option>
+            <option value="both" class="i18n" data-i18n="both"></option>
+            <option value="horizontal" selected="true" class="i18n" data-i18n="horizontal"></option>
+            <option value="vertical" class="i18n" data-i18n="vertical"></option>
+            <option value="none" class="i18n" data-i18n="none"></option>
+        </select>
+        <br>
+        <br>
+    </div>
+    <!--h4><script>_("textarea and input");</script></h4-->
+    <span class="i18n" data-i18n="transition_duration"></span><br>
+    <table>
+        <tr>
+            <td style="text-align:left; padding-left:10px; vertical-align:top;">0ms</td>
+            <td width="100%" style="text-align:center; vertical-align:top;">
+                <input type="range" name="transition_duration" id="transition_duration" min="0" max="500" value="200" step="50" style="width:100%;" />
+            </td>
+            <td style="text-align:right; padding-right:10px; vertical-align:top;">500ms</td>
+		</tr>
+	</table>
+	<br>
+	<table><tr>
+		<td><input type="checkbox" id="collapse_textareas" /></td>
+		<td style="width:100%;"><label for="collapse_textareas" class="i18n" data-i18n="collapse_textareas"></label></td>
+	</tr></table>
+    
+    </fieldset><br>
+    
+</section>
+
+<footer>
+    <p><a href="http://my.opera.com/christoph142/blog/" target="_blank"><span class="i18n" data-i18n="footer"></span> :)</a><br><br></p>
+</footer>
+  
+</body>
+</html>
