@@ -11,6 +11,7 @@
 	"content_scripts" :
 	[{
 		  "matches"		: ["<all_urls>"],
+		  "exclude_globs": ["*facebook.com*"],
 		  "css"			: ["includes/textbox.css"],
 		  "js"			: ["includes/textbox.js"],
 		  "run_at"		: "document_start",
