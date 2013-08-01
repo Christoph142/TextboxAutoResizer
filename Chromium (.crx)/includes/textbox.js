@@ -1,5 +1,7 @@
 (function(){
 
+if(document.URL.match("facebook.com")) return; // Facebook has its own resizing script
+
 var w = {};					// settings -> updated when tab gets activated
 var currentField;
 var compareField;
