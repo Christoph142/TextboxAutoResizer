@@ -1,54 +1,58 @@
 {
     "lang": {
-        "message": "en",
+        "message": "cs",
         "description": ""
     },
     "both": {
-        "message": "in both directions",
+        "message": "v obou směrech",
         "description": ""
     },
     "none": {
-        "message": "not at all",
+        "message": "vůbec",
         "description": ""
     },
     "collapse_textareas": {
-        "message": "Restore original size when not focused",
+        "message": "Obnov originální velikost při výběru",
         "description": ""
     },
     "vertical": {
-        "message": "vertically only",
+        "message": "jen svisle",
         "description": ""
     },
     "resizable": {
-        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
+        "message": "Do jakého rozšíření chcete aby byla textová pole manuálně rozšiřitelná?",
         "description": ""
     },
     "textarea": {
-        "message": "Multiline textareas:",
+        "message": "Víceřádkové textové pole:",
         "description": ""
     },
-    "footer": {
-        "message": "Thanks for installing this extension. You can contact me at any time for feedback and questions.",
+    "settings": {
+        "message": "Settings",
         "description": ""
     },
     "unchanged": {
-        "message": "unchanged",
+        "message": "nezměněno",
+        "description": ""
+    },
+    "footer": {
+        "message": "Děkuji za nainstalování tohoto rozšíření. Můžete mě kdykoli kontaktovat pro zpětnou vazbu a otázky.",
         "description": ""
     },
     "transition_duration": {
-        "message": "Transition-duration of height adjustments",
+        "message": "Přechodové trvání při úpravách výšky",
         "description": ""
     },
     "horizontal": {
-        "message": "horizontally only",
+        "message": "jen vodorovně",
         "description": ""
     },
     "by": {
-        "message": "by",
+        "message": "od",
         "description": ""
     },
     "description": {
-        "message": "Automatically resizes input fields and textareas while you're typing",
+        "message": "Automaticky změnit velikost vkládacích a textových polí když píšete",
         "description": ""
     }
 }

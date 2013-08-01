@@ -1,54 +1,58 @@
 {
     "lang": {
-        "message": "en",
+        "message": "pt",
         "description": ""
     },
     "both": {
-        "message": "in both directions",
+        "message": "em ambas as direções",
         "description": ""
     },
     "none": {
-        "message": "not at all",
+        "message": "não redimensionar",
         "description": ""
     },
     "collapse_textareas": {
-        "message": "Restore original size when not focused",
+        "message": "Restaurar tamanho original quando não estiver com foco",
         "description": ""
     },
     "vertical": {
-        "message": "vertically only",
+        "message": "apenas vertical",
         "description": ""
     },
     "resizable": {
-        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
+        "message": "Para quais direções você poderá manualmente ajustar as caixas de textos com redimensionamento automático?",
         "description": ""
     },
     "textarea": {
-        "message": "Multiline textareas:",
+        "message": "Caixa de texto multi-linhas:",
         "description": ""
     },
-    "footer": {
-        "message": "Thanks for installing this extension. You can contact me at any time for feedback and questions.",
+    "settings": {
+        "message": "Settings",
         "description": ""
     },
     "unchanged": {
-        "message": "unchanged",
+        "message": "padrão da caixa",
+        "description": ""
+    },
+    "footer": {
+        "message": "Obrigado por instalar esta extensão. Para comentários e perguntas não hesite em contatar-me.",
         "description": ""
     },
     "transition_duration": {
-        "message": "Transition-duration of height adjustments",
+        "message": "Duração da transição de ajuste do tamanho",
         "description": ""
     },
     "horizontal": {
-        "message": "horizontally only",
+        "message": "apenas horizontal",
         "description": ""
     },
     "by": {
-        "message": "by",
+        "message": "por",
         "description": ""
     },
     "description": {
-        "message": "Automatically resizes input fields and textareas while you're typing",
+        "message": "Automaticamente redimensiona caixas de texto conforme você digita",
         "description": ""
     }
 }

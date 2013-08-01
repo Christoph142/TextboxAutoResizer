@@ -1,0 +1,58 @@
+{
+    "lang": {
+        "message": "en",
+        "description": ""
+    },
+    "both": {
+        "message": "cả hai hướng",
+        "description": ""
+    },
+    "none": {
+        "message": "hoàn toàn không",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Trở lại kích cỡ chuẩn khi không được nhắm tới",
+        "description": ""
+    },
+    "vertical": {
+        "message": "chỉ chiều dọc",
+        "description": ""
+    },
+    "resizable": {
+        "message": "Khối văn bản có kích cỡ tự động điều chỉnh sẽ thay đổi kích cỡ ở mức độ nào khi làm bằng tay?",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Khối văn bản nhiều dòng:",
+        "description": ""
+    },
+    "settings": {
+        "message": "Settings",
+        "description": ""
+    },
+    "unchanged": {
+        "message": "không đổi",
+        "description": ""
+    },
+    "footer": {
+        "message": "Cám ơn vì sử dụng extension này. Bạn có thể liên hệ tôi bất cứ lúc nào để nhận phản hồi và câu hỏi.",
+        "description": ""
+    },
+    "transition_duration": {
+        "message": "Thời gian dịch chuyển của bộ điều chỉnh chiều cao",
+        "description": ""
+    },
+    "horizontal": {
+        "message": "chỉ chiều ngang",
+        "description": ""
+    },
+    "by": {
+        "message": "bởi",
+        "description": ""
+    },
+    "description": {
+        "message": "Tự động chỉnh cỡ các trường và khối văn bản khi có người nhập liệu",
+        "description": ""
+    }
+}

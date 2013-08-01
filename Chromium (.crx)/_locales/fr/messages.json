@@ -1,54 +1,58 @@
 {
     "lang": {
-        "message": "en",
+        "message": "fr",
         "description": ""
     },
     "both": {
-        "message": "in both directions",
+        "message": "aux deux directions",
         "description": ""
     },
     "none": {
-        "message": "not at all",
+        "message": "pas du tout",
         "description": ""
     },
     "collapse_textareas": {
-        "message": "Restore original size when not focused",
+        "message": "Restaure la taille originale quand il n'est pas axé",
         "description": ""
     },
     "vertical": {
-        "message": "vertically only",
+        "message": "seulement verticale",
         "description": ""
     },
     "resizable": {
-        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
+        "message": "Comment veux-tu les zones de texte ajustés automatiquement d'être réglable manuellement?",
         "description": ""
     },
     "textarea": {
-        "message": "Multiline textareas:",
+        "message": "Zones de texte multilignes:",
         "description": ""
     },
-    "footer": {
-        "message": "Thanks for installing this extension. You can contact me at any time for feedback and questions.",
+    "settings": {
+        "message": "Réglages",
         "description": ""
     },
     "unchanged": {
-        "message": "unchanged",
+        "message": "inchangé",
+        "description": ""
+    },
+    "footer": {
+        "message": "Merci d'avoir installé cette extension. Tu peux me contacter toujours pour des commentaires et des questions.",
         "description": ""
     },
     "transition_duration": {
-        "message": "Transition-duration of height adjustments",
+        "message": "Durée de la transition du réglage de la hauteur",
         "description": ""
     },
     "horizontal": {
-        "message": "horizontally only",
+        "message": "seulement horizontale",
         "description": ""
     },
     "by": {
-        "message": "by",
+        "message": "de",
         "description": ""
     },
     "description": {
-        "message": "Automatically resizes input fields and textareas while you're typing",
+        "message": "Redimensionne les champs de saisie et les zones de texte automatiquement lorsque tu tapes",
         "description": ""
     }
 }

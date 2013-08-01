@@ -27,12 +27,16 @@
         "message": "Mehrzeilige Textfelder:",
         "description": ""
     },
-    "footer": {
-        "message": "Danke für das Installieren dieser Erweiterung. Für Feedback und Fragen stehe ich jederzeit gerne zur Verfügung.",
+    "settings": {
+        "message": "Einstellungen",
         "description": ""
     },
     "unchanged": {
         "message": "unverändert",
+        "description": ""
+    },
+    "footer": {
+        "message": "Danke für das Installieren dieser Erweiterung. Für Feedback und Fragen stehe ich jederzeit gerne zur Verfügung.",
         "description": ""
     },
     "transition_duration": {
