@@ -1,0 +1,58 @@
+{
+    "lang": {
+        "message": "en",
+        "description": ""
+    },
+    "both": {
+        "message": "in both directions",
+        "description": ""
+    },
+    "none": {
+        "message": "not at all",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Restore original size when not focused",
+        "description": ""
+    },
+    "vertical": {
+        "message": "vertically only",
+        "description": ""
+    },
+    "resizable": {
+        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Multiline textareas:",
+        "description": ""
+    },
+    "settings": {
+        "message": "Settings",
+        "description": ""
+    },
+    "unchanged": {
+        "message": "unchanged",
+        "description": ""
+    },
+    "footer": {
+        "message": "Thanks for installing this extension. You can contact me at any time for feedback and questions.",
+        "description": ""
+    },
+    "transition_duration": {
+        "message": "Transition-duration of height adjustments",
+        "description": ""
+    },
+    "horizontal": {
+        "message": "horizontally only",
+        "description": ""
+    },
+    "by": {
+        "message": "by",
+        "description": ""
+    },
+    "description": {
+        "message": "Automatically resizes input fields and textareas while you're typing",
+        "description": ""
+    }
+}
