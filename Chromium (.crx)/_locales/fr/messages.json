@@ -1,32 +1,4 @@
 {
-    "lang": {
-        "message": "fr",
-        "description": ""
-    },
-    "both": {
-        "message": "aux deux directions",
-        "description": ""
-    },
-    "none": {
-        "message": "pas du tout",
-        "description": ""
-    },
-    "collapse_textareas": {
-        "message": "Restaure la taille originale quand il n'est pas axé",
-        "description": ""
-    },
-    "vertical": {
-        "message": "seulement verticale",
-        "description": ""
-    },
-    "resizable": {
-        "message": "Comment veux-tu les zones de texte ajustés automatiquement d'être réglable manuellement?",
-        "description": ""
-    },
-    "textarea": {
-        "message": "Zones de texte multilignes:",
-        "description": ""
-    },
     "settings": {
         "message": "Réglages",
         "description": ""
@@ -35,8 +7,28 @@
         "message": "inchangé",
         "description": ""
     },
+    "by": {
+        "message": "de",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Restaure la taille originale quand il n'est pas axé",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Zones de texte multilignes:",
+        "description": ""
+    },
+    "none": {
+        "message": "pas du tout",
+        "description": ""
+    },
     "footer": {
         "message": "Merci d'avoir installé cette extension. Tu peux me contacter toujours pour des commentaires et des questions.",
+        "description": ""
+    },
+    "lang": {
+        "message": "fr",
         "description": ""
     },
     "transition_duration": {
@@ -47,8 +39,16 @@
         "message": "seulement horizontale",
         "description": ""
     },
-    "by": {
-        "message": "de",
+    "both": {
+        "message": "aux deux directions",
+        "description": ""
+    },
+    "resizable": {
+        "message": "Comment veux-tu les zones de texte ajustés automatiquement d'être réglable manuellement?",
+        "description": ""
+    },
+    "vertical": {
+        "message": "seulement verticale",
         "description": ""
     },
     "description": {

@@ -1,32 +1,4 @@
 {
-    "lang": {
-        "message": "pl",
-        "description": ""
-    },
-    "both": {
-        "message": "w obydwu kierunkach",
-        "description": ""
-    },
-    "none": {
-        "message": "wcale",
-        "description": ""
-    },
-    "collapse_textareas": {
-        "message": "Przywróć oryginalne wymiary, gdy kursor znajduje się poza polem tekstowym",
-        "description": ""
-    },
-    "vertical": {
-        "message": "tylko pionowo",
-        "description": ""
-    },
-    "resizable": {
-        "message": "Zezwól na ręczne rozciąganie automatycznie rozciągniętych pól tekstowych:",
-        "description": ""
-    },
-    "textarea": {
-        "message": "Pola tekstowe wielowierszowe:",
-        "description": ""
-    },
     "settings": {
         "message": "Settings",
         "description": ""
@@ -35,8 +7,28 @@
         "message": "unchanged",
         "description": ""
     },
+    "by": {
+        "message": "autor: ",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Przywróć oryginalne wymiary, gdy kursor znajduje się poza polem tekstowym",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Pola tekstowe wielowierszowe:",
+        "description": ""
+    },
+    "none": {
+        "message": "wcale",
+        "description": ""
+    },
     "footer": {
         "message": "Dzięki za instalację tego rozszerzenia. Możesz się ze mną skontaktować w każdej chwili, jeśli masz jakieś uwagi lub pytania.",
+        "description": ""
+    },
+    "lang": {
+        "message": "pl",
         "description": ""
     },
     "transition_duration": {
@@ -47,8 +39,16 @@
         "message": "tylko poziomo",
         "description": ""
     },
-    "by": {
-        "message": "autor: ",
+    "both": {
+        "message": "w obydwu kierunkach",
+        "description": ""
+    },
+    "resizable": {
+        "message": "Zezwól na ręczne rozciąganie automatycznie rozciągniętych pól tekstowych:",
+        "description": ""
+    },
+    "vertical": {
+        "message": "tylko pionowo",
         "description": ""
     },
     "description": {

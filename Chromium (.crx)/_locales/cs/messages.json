@@ -1,32 +1,4 @@
 {
-    "lang": {
-        "message": "cs",
-        "description": ""
-    },
-    "both": {
-        "message": "v obou směrech",
-        "description": ""
-    },
-    "none": {
-        "message": "vůbec",
-        "description": ""
-    },
-    "collapse_textareas": {
-        "message": "Obnov originální velikost při výběru",
-        "description": ""
-    },
-    "vertical": {
-        "message": "jen svisle",
-        "description": ""
-    },
-    "resizable": {
-        "message": "Do jakého rozšíření chcete aby byla textová pole manuálně rozšiřitelná?",
-        "description": ""
-    },
-    "textarea": {
-        "message": "Víceřádkové textové pole:",
-        "description": ""
-    },
     "settings": {
         "message": "Settings",
         "description": ""
@@ -35,8 +7,28 @@
         "message": "nezměněno",
         "description": ""
     },
+    "by": {
+        "message": "od",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Obnov originální velikost při výběru",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Víceřádkové textové pole:",
+        "description": ""
+    },
+    "none": {
+        "message": "vůbec",
+        "description": ""
+    },
     "footer": {
         "message": "Děkuji za nainstalování tohoto rozšíření. Můžete mě kdykoli kontaktovat pro zpětnou vazbu a otázky.",
+        "description": ""
+    },
+    "lang": {
+        "message": "cs",
         "description": ""
     },
     "transition_duration": {
@@ -47,8 +39,16 @@
         "message": "jen vodorovně",
         "description": ""
     },
-    "by": {
-        "message": "od",
+    "both": {
+        "message": "v obou směrech",
+        "description": ""
+    },
+    "resizable": {
+        "message": "Do jakého rozšíření chcete aby byla textová pole manuálně rozšiřitelná?",
+        "description": ""
+    },
+    "vertical": {
+        "message": "jen svisle",
         "description": ""
     },
     "description": {

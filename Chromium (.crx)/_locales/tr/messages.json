@@ -1,32 +1,4 @@
 {
-    "lang": {
-        "message": "tr",
-        "description": ""
-    },
-    "both": {
-        "message": "her iki yöne",
-        "description": ""
-    },
-    "none": {
-        "message": "not at all",
-        "description": ""
-    },
-    "collapse_textareas": {
-        "message": "Odaklı olmayan orijinal boyuta dönmek",
-        "description": ""
-    },
-    "vertical": {
-        "message": "sadece dikey",
-        "description": ""
-    },
-    "resizable": {
-        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
-        "description": ""
-    },
-    "textarea": {
-        "message": "Çok satırlı metin alanları:",
-        "description": ""
-    },
     "settings": {
         "message": "Ayarlar",
         "description": ""
@@ -35,8 +7,28 @@
         "message": "değişmemiş",
         "description": ""
     },
+    "by": {
+        "message": "tarafından",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Odaklı olmayan orijinal boyuta dönmek",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Çok satırlı metin alanları:",
+        "description": ""
+    },
+    "none": {
+        "message": "not at all",
+        "description": ""
+    },
     "footer": {
         "message": "Thanks for installing this extension. You can contact me at any time for feedback and questions.",
+        "description": ""
+    },
+    "lang": {
+        "message": "tr",
         "description": ""
     },
     "transition_duration": {
@@ -47,8 +39,16 @@
         "message": "sadece yatay",
         "description": ""
     },
-    "by": {
-        "message": "tarafından",
+    "both": {
+        "message": "her iki yöne",
+        "description": ""
+    },
+    "resizable": {
+        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
+        "description": ""
+    },
+    "vertical": {
+        "message": "sadece dikey",
         "description": ""
     },
     "description": {

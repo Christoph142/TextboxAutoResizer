@@ -1,32 +1,4 @@
 {
-    "lang": {
-        "message": "en",
-        "description": ""
-    },
-    "both": {
-        "message": "in both directions",
-        "description": ""
-    },
-    "none": {
-        "message": "not at all",
-        "description": ""
-    },
-    "collapse_textareas": {
-        "message": "Restore original size when not focused",
-        "description": ""
-    },
-    "vertical": {
-        "message": "vertically only",
-        "description": ""
-    },
-    "resizable": {
-        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
-        "description": ""
-    },
-    "textarea": {
-        "message": "Multiline textareas:",
-        "description": ""
-    },
     "settings": {
         "message": "Settings",
         "description": ""
@@ -35,8 +7,28 @@
         "message": "unchanged",
         "description": ""
     },
+    "by": {
+        "message": "by",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Restore original size when not focused",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Multiline textareas:",
+        "description": ""
+    },
+    "none": {
+        "message": "not at all",
+        "description": ""
+    },
     "footer": {
         "message": "Thanks for installing this extension. You can contact me at any time for feedback and questions.",
+        "description": ""
+    },
+    "lang": {
+        "message": "en",
         "description": ""
     },
     "transition_duration": {
@@ -47,8 +39,16 @@
         "message": "horizontally only",
         "description": ""
     },
-    "by": {
-        "message": "by",
+    "both": {
+        "message": "in both directions",
+        "description": ""
+    },
+    "resizable": {
+        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
+        "description": ""
+    },
+    "vertical": {
+        "message": "vertically only",
         "description": ""
     },
     "description": {

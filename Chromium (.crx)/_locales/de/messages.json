@@ -1,32 +1,4 @@
 {
-    "lang": {
-        "message": "de",
-        "description": ""
-    },
-    "both": {
-        "message": "in beide Richtungen",
-        "description": ""
-    },
-    "none": {
-        "message": "gar nicht",
-        "description": ""
-    },
-    "collapse_textareas": {
-        "message": "Ursprüngliche Größe beim Deaktivieren wiederherstellen",
-        "description": ""
-    },
-    "vertical": {
-        "message": "nur vertikal",
-        "description": ""
-    },
-    "resizable": {
-        "message": "Wie sollen die automatisch angepassten Felder auch manuell anpassbar sein?",
-        "description": ""
-    },
-    "textarea": {
-        "message": "Mehrzeilige Textfelder:",
-        "description": ""
-    },
     "settings": {
         "message": "Einstellungen",
         "description": ""
@@ -35,8 +7,28 @@
         "message": "unverändert",
         "description": ""
     },
+    "by": {
+        "message": "von",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Ursprüngliche Größe beim Deaktivieren wiederherstellen",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Mehrzeilige Textfelder:",
+        "description": ""
+    },
+    "none": {
+        "message": "gar nicht",
+        "description": ""
+    },
     "footer": {
         "message": "Danke für das Installieren dieser Erweiterung. Für Feedback und Fragen stehe ich jederzeit gerne zur Verfügung.",
+        "description": ""
+    },
+    "lang": {
+        "message": "de",
         "description": ""
     },
     "transition_duration": {
@@ -47,8 +39,16 @@
         "message": "nur horizontal",
         "description": ""
     },
-    "by": {
-        "message": "von",
+    "both": {
+        "message": "in beide Richtungen",
+        "description": ""
+    },
+    "resizable": {
+        "message": "Wie sollen die automatisch angepassten Felder auch manuell anpassbar sein?",
+        "description": ""
+    },
+    "vertical": {
+        "message": "nur vertikal",
         "description": ""
     },
     "description": {

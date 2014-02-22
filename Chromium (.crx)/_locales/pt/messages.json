@@ -1,32 +1,4 @@
 {
-    "lang": {
-        "message": "pt",
-        "description": ""
-    },
-    "both": {
-        "message": "em ambas as direções",
-        "description": ""
-    },
-    "none": {
-        "message": "não redimensionar",
-        "description": ""
-    },
-    "collapse_textareas": {
-        "message": "Restaurar tamanho original quando não estiver com foco",
-        "description": ""
-    },
-    "vertical": {
-        "message": "apenas vertical",
-        "description": ""
-    },
-    "resizable": {
-        "message": "Para quais direções você poderá manualmente ajustar as caixas de textos com redimensionamento automático?",
-        "description": ""
-    },
-    "textarea": {
-        "message": "Caixa de texto multi-linhas:",
-        "description": ""
-    },
     "settings": {
         "message": "Preferências",
         "description": ""
@@ -35,8 +7,28 @@
         "message": "padrão da caixa",
         "description": ""
     },
+    "by": {
+        "message": "por",
+        "description": ""
+    },
+    "collapse_textareas": {
+        "message": "Restaurar tamanho original quando não estiver com foco",
+        "description": ""
+    },
+    "textarea": {
+        "message": "Caixa de texto multi-linhas:",
+        "description": ""
+    },
+    "none": {
+        "message": "não redimensionar",
+        "description": ""
+    },
     "footer": {
         "message": "Obrigado por instalar esta extensão. Para comentários e perguntas não hesite em contatar-me.",
+        "description": ""
+    },
+    "lang": {
+        "message": "pt",
         "description": ""
     },
     "transition_duration": {
@@ -47,8 +39,16 @@
         "message": "apenas horizontal",
         "description": ""
     },
-    "by": {
-        "message": "por",
+    "both": {
+        "message": "em ambas as direções",
+        "description": ""
+    },
+    "resizable": {
+        "message": "Para quais direções você poderá manualmente ajustar as caixas de textos com redimensionamento automático?",
+        "description": ""
+    },
+    "vertical": {
+        "message": "apenas vertical",
         "description": ""
     },
     "description": {
