@@ -5,8 +5,8 @@
 	"homepage_url"		: "https://christoph142.wordpress.com",
 	
 	"default_locale"	: "en",
-	"version"			: "2.0",
-	"icons"				: { "16": "images/contextmenu.png", "128": "images/icon@2x.png" },
+	"version"			: "2.1",
+	"icons"				: { "16" : "images/contextmenu.png", "32" : "images/contextmenu@2x.png", "64" : "images/icon.png", "128" : "images/icon@2x.png" },
 	
 	"content_scripts" :
 	[{
@@ -18,7 +18,7 @@
 		  "all_frames"	: true
 	}],
 	
-	"background"		: {"scripts": ["background.js"]},
+	"background"		: { "scripts" : ["background.js"], "persistent" : false },
   
 	"permissions"		: ["storage"],
 	"options_page"		: "options/options.html",
