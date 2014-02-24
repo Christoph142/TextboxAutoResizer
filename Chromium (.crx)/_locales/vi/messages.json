@@ -1,58 +1,58 @@
 {
     "settings": {
-        "message": "Settings",
+        "message": "thiết lập",
         "description": ""
     },
     "unchanged": {
-        "message": "unchanged",
+        "message": "không đổi",
         "description": ""
     },
     "by": {
-        "message": "by",
+        "message": "bởi",
         "description": ""
     },
     "collapse_textareas": {
-        "message": "Restore original size when not focused",
+        "message": "Trở lại kích cỡ chuẩn khi không được nhắm tới",
         "description": ""
     },
     "textarea": {
-        "message": "Multiline textareas:",
+        "message": "Khối văn bản nhiều dòng:",
         "description": ""
     },
     "none": {
-        "message": "not at all",
+        "message": "hoàn toàn không",
         "description": ""
     },
     "footer": {
-        "message": "Thanks for installing this extension. You can contact me at any time for feedback and questions.",
+        "message": "Cám ơn vì sử dụng extension này. Bạn có thể liên hệ tôi bất cứ lúc nào để nhận phản hồi và câu hỏi.",
         "description": ""
     },
     "lang": {
-        "message": "en",
+        "message": "vi",
         "description": ""
     },
     "transition_duration": {
-        "message": "Transition-duration of height adjustments",
+        "message": "Thời gian dịch chuyển của bộ điều chỉnh chiều cao",
         "description": ""
     },
     "horizontal": {
-        "message": "horizontally only",
+        "message": "chỉ chiều ngang",
         "description": ""
     },
     "both": {
-        "message": "in both directions",
+        "message": "cả hai hướng",
         "description": ""
     },
     "resizable": {
-        "message": "To which extend do you want automatically adjusted textareas to be manually adjustable?",
+        "message": "Khối văn bản có kích cỡ tự động điều chỉnh sẽ thay đổi kích cỡ ở mức độ nào khi làm bằng tay?",
         "description": ""
     },
     "vertical": {
-        "message": "vertically only",
+        "message": "chỉ chiều dọc",
         "description": ""
     },
     "description": {
-        "message": "Automatically resizes input fields and textareas while you're typing",
+        "message": "Tự động chỉnh cỡ các trường và khối văn bản khi có người nhập liệu",
         "description": ""
     }
 }
