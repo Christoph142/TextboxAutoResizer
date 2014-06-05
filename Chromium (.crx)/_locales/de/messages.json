@@ -27,10 +27,6 @@
         "message": "Danke für das Installieren dieser Erweiterung. Für Feedback und Fragen stehe ich jederzeit gerne zur Verfügung.",
         "description": ""
     },
-    "lang": {
-        "message": "de",
-        "description": ""
-    },
     "transition_duration": {
         "message": "Animations-Dauer der Höhenanpassung",
         "description": ""

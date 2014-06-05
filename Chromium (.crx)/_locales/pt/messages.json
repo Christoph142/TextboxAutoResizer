@@ -27,10 +27,6 @@
         "message": "Obrigado por instalar esta extensão. Para comentários e perguntas não hesite em contatar-me.",
         "description": ""
     },
-    "lang": {
-        "message": "pt",
-        "description": ""
-    },
     "transition_duration": {
         "message": "Duração da transição de ajuste do tamanho",
         "description": ""

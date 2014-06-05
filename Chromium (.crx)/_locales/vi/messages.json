@@ -27,10 +27,6 @@
         "message": "Cám ơn vì sử dụng extension này. Bạn có thể liên hệ tôi bất cứ lúc nào để nhận phản hồi và câu hỏi.",
         "description": ""
     },
-    "lang": {
-        "message": "vi",
-        "description": ""
-    },
     "transition_duration": {
         "message": "Thời gian dịch chuyển của bộ điều chỉnh chiều cao",
         "description": ""

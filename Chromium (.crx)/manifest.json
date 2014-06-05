@@ -23,5 +23,6 @@
 	"permissions"		: ["storage"],
 	"options_page"		: "options/options.html",
 	
+	"offline_enabled"	: true,
 	"manifest_version"	: 2
 }

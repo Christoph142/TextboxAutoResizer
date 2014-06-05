@@ -27,10 +27,6 @@
         "message": "Thanks for installing this extension. You can contact me at any time for feedback and questions.",
         "description": ""
     },
-    "lang": {
-        "message": "tr",
-        "description": ""
-    },
     "transition_duration": {
         "message": "Yükseklik ayarlamaları geçiş süresi",
         "description": ""

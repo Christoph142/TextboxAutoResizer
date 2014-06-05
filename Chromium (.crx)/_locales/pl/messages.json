@@ -1,10 +1,10 @@
 {
     "settings": {
-        "message": "Settings",
+        "message": "Ustawienia",
         "description": ""
     },
     "unchanged": {
-        "message": "unchanged",
+        "message": "domyślnie",
         "description": ""
     },
     "by": {
@@ -27,12 +27,8 @@
         "message": "Dzięki za instalację tego rozszerzenia. Możesz się ze mną skontaktować w każdej chwili, jeśli masz jakieś uwagi lub pytania.",
         "description": ""
     },
-    "lang": {
-        "message": "pl",
-        "description": ""
-    },
     "transition_duration": {
-        "message": "Czas trwania przejścia regulacji wysokości",
+        "message": "Czas trwania przejścia regulacji wysokości:",
         "description": ""
     },
     "horizontal": {
