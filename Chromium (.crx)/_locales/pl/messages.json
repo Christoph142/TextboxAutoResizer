@@ -1,18 +1,18 @@
 {
     "settings": {
-        "message": "Settings",
+        "message": "Ustawienia",
         "description": ""
     },
     "unchanged": {
-        "message": "unchanged",
+        "message": "Bez zmian",
         "description": ""
     },
     "by": {
-        "message": "autor: ",
+        "message": "Autor: ",
         "description": ""
     },
     "collapse_textareas": {
-        "message": "Przywróć oryginalne wymiary, gdy kursor znajduje się poza polem tekstowym",
+        "message": "Przywróć oryginalne wymiary, gdy kursor znajdzie się poza polem tekstowym",
         "description": ""
     },
     "textarea": {
@@ -20,11 +20,11 @@
         "description": ""
     },
     "none": {
-        "message": "wcale",
+        "message": "Wcale",
         "description": ""
     },
     "footer": {
-        "message": "Dzięki za instalację tego rozszerzenia. Możesz się ze mną skontaktować w każdej chwili, jeśli masz jakieś uwagi lub pytania.",
+        "message": "Dziękuję za instalację tego rozszerzenia. Możesz się ze mną skontaktować w każdej chwili, jeśli masz jakieś uwagi lub pytania.",
         "description": ""
     },
     "lang": {
@@ -36,11 +36,11 @@
         "description": ""
     },
     "horizontal": {
-        "message": "tylko poziomo",
+        "message": "Tylko poziomo",
         "description": ""
     },
     "both": {
-        "message": "w obydwu kierunkach",
+        "message": "W obydwóch kierunkach",
         "description": ""
     },
     "resizable": {
@@ -48,11 +48,11 @@
         "description": ""
     },
     "vertical": {
-        "message": "tylko pionowo",
+        "message": "Tylko pionowo",
         "description": ""
     },
     "description": {
-        "message": "Automatycznie rozciąga jedno– i wielowierszowe pola tekstowe podczas wpisywania tekstu",
+        "message": "Automatycznie rozciąga jednowierszowe i wielowierszowe pola tekstowe podczas wpisywania tekstu",
         "description": ""
     }
 }
