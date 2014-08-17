@@ -2,7 +2,7 @@
 
 if(document.URL.match("facebook.com")) return; // Facebook has its own resizing script
 
-var w = {};					// settings -> updated when tab gets activated
+var w = {};			// settings -> updated when tab gets activated
 var currentField;
 var compareField;
 
@@ -15,8 +15,8 @@ function initialize()
 {
 	var t = window.event.target;
 	
-	if(t.type === "textarea" && t !== currentField) init_this_textarea(t);
-	else if(t.type !== "" && "text search email tel url".indexOf(t.type) >= 0 && t !== currentField) init_this_input(t);
+	if(t.type === "textarea" && t !== currentField && w.handle_textareas === "1") init_this_textarea(t);
+	else if(t.type !== "" && "text search email tel url".indexOf(t.type) >= 0 && t !== currentField && w.handle_inputs === "1") init_this_input(t);
 }
 
 function autogrow_textarea()

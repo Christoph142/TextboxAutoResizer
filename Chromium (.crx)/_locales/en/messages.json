@@ -11,8 +11,20 @@
         "message": "by",
         "description": ""
     },
-	"textarea": {
+    "inputs": {
+        "message": "Single-line textfields:",
+        "description": ""
+    },
+    "textarea": {
         "message": "Multiline textareas:",
+        "description": ""
+    },
+    "handle_inputs": {
+        "message": "handle",
+        "description": ""
+    },
+    "handle_textareas": {
+        "message": "handle",
         "description": ""
     },
 	"resizable": {

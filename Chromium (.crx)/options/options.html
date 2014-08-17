@@ -22,8 +22,18 @@
       </div> <!-- sidebar -->
       <div id="content">
       
+        <h2 class="section-header i18n" data-i18n="inputs"></h2>
+        
+        <div class="setting">
+            <input type="checkbox" id="handle_inputs" checked /><label for="handle_inputs" class="i18n" data-i18n="handle_inputs"></label>
+        </div>
+        <br>
       	<h2 class="section-header i18n" data-i18n="textarea"></h2>
         
+        <div class="setting">
+            <input type="checkbox" id="handle_textareas" checked /><label for="handle_textareas" class="i18n" data-i18n="handle_textareas"></label>
+        </div>
+
         <div class="setting">
           	<span class="i18n" data-i18n="resizable"></span><br>
             <br>
@@ -41,20 +51,17 @@
             <br>
             <table>
                 <tr>
-                    <td style="text-align:left; padding-left:10px; vertical-align:top;">0ms</td>
+                    <td style="text-align:left; padding-left:1rem; vertical-align:top;">0ms</td>
                     <td width="100%" style="text-align:center; vertical-align:top;">
-                        <input type="range" name="transition_duration" id="transition_duration" min="0" max="500" value="200" step="50" style="width:100%;" />
+                        <input type="range" name="transition_duration" id="transition_duration" min="0" max="500" value="300" step="50" style="width:100%;" />
                     </td>
-                    <td style="text-align:right; padding-right:10px; vertical-align:top;">500ms</td>
+                    <td style="text-align:right; padding-right:1rem; padding-left:0.4rem; vertical-align:top;">500ms</td>
                 </tr>
             </table>
         </div>
         
         <div class="setting">
-            <table><tr>
-                <td><input type="checkbox" id="collapse_textareas" /></td>
-                <td style="width:100%;"><label for="collapse_textareas" class="i18n" data-i18n="collapse_textareas"></label></td>
-            </tr></table>
+            <input type="checkbox" id="collapse_textareas" /><label for="collapse_textareas" class="i18n" data-i18n="collapse_textareas"></label>
         </div>
         
         <footer>

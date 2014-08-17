@@ -3,12 +3,20 @@
         "message": "thiết lập",
         "description": ""
     },
+    "inputs": {
+        "message": "Single-line textfields:",
+        "description": ""
+    },
     "unchanged": {
         "message": "không đổi",
         "description": ""
     },
     "by": {
         "message": "bởi",
+        "description": ""
+    },
+    "handle_textareas": {
+        "message": "handle",
         "description": ""
     },
     "collapse_textareas": {
@@ -37,6 +45,10 @@
     },
     "both": {
         "message": "cả hai hướng",
+        "description": ""
+    },
+    "handle_inputs": {
+        "message": "handle",
         "description": ""
     },
     "resizable": {

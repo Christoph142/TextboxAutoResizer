@@ -3,12 +3,20 @@
         "message": "Réglages",
         "description": ""
     },
+    "inputs": {
+        "message": "Single-line textfields:",
+        "description": ""
+    },
     "unchanged": {
         "message": "inchangé",
         "description": ""
     },
     "by": {
         "message": "de",
+        "description": ""
+    },
+    "handle_textareas": {
+        "message": "handle",
         "description": ""
     },
     "collapse_textareas": {
@@ -37,6 +45,10 @@
     },
     "both": {
         "message": "aux deux directions",
+        "description": ""
+    },
+    "handle_inputs": {
+        "message": "handle",
         "description": ""
     },
     "resizable": {

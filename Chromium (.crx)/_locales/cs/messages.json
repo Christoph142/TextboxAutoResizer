@@ -3,12 +3,20 @@
         "message": "Settings",
         "description": ""
     },
+    "inputs": {
+        "message": "Single-line textfields:",
+        "description": ""
+    },
     "unchanged": {
         "message": "nezměněno",
         "description": ""
     },
     "by": {
         "message": "od",
+        "description": ""
+    },
+    "handle_textareas": {
+        "message": "handle",
         "description": ""
     },
     "collapse_textareas": {
@@ -37,6 +45,10 @@
     },
     "both": {
         "message": "v obou směrech",
+        "description": ""
+    },
+    "handle_inputs": {
+        "message": "handle",
         "description": ""
     },
     "resizable": {

@@ -217,11 +217,6 @@ a {
  margin: .5rem 0;
 }
 
-.control-with-label-inline input,
-.control-with-label input {
-  margin: 0;
-}
-
 .control-with-label-inline > label,
 .control-with-label > label,
 .control-with-label-inline > span,
@@ -291,6 +286,11 @@ a {
   margin: 0 0 12px;
   padding: 16px;
   position: relative;
+}
+
+input + label{
+  margin-left: 0.4rem;
+  vertical-align:0.15em;
 }
 
 #help		{ position:fixed; top:20px; right:20px; width:auto; height:auto; box-shadow:0 0 10px #F00; background:#FFF; padding:10px 10px 20px 10px; text-align:center; cursor:pointer; border-radius:5px; }

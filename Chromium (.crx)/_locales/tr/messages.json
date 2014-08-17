@@ -3,12 +3,20 @@
         "message": "Ayarlar",
         "description": ""
     },
+    "inputs": {
+        "message": "Single-line textfields:",
+        "description": ""
+    },
     "unchanged": {
         "message": "değişmemiş",
         "description": ""
     },
     "by": {
         "message": "tarafından",
+        "description": ""
+    },
+    "handle_textareas": {
+        "message": "handle",
         "description": ""
     },
     "collapse_textareas": {
@@ -37,6 +45,10 @@
     },
     "both": {
         "message": "her iki yöne",
+        "description": ""
+    },
+    "handle_inputs": {
+        "message": "handle",
         "description": ""
     },
     "resizable": {
